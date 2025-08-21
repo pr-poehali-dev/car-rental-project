@@ -79,6 +79,14 @@ export default function Index() {
       {/* Hero Section */}
       <section id="home" className="py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-primary/5 to-transparent"></div>
+        {/* Background Logo */}
+        <div className="absolute inset-0 flex items-center justify-center opacity-5 pointer-events-none">
+          <img 
+            src="https://cdn.poehali.dev/files/1a16f785-b933-43e5-ba2a-fe305dcd745b.jpg" 
+            alt="" 
+            className="w-96 h-96 object-contain"
+          />
+        </div>
         <div className="container mx-auto px-4 relative">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8 animate-fade-in">
